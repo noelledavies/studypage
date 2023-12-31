@@ -1,0 +1,262 @@
+body {
+    margin: 0;
+    background-color: white;
+    font-family: 'Kanit', sans-serif;
+    color: #072b54;
+}
+/*main page*/
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 10vh;
+    font-size: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    border-bottom: solid #f9be23;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.body {
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    justify-content: center;
+}
+
+.box1 {
+    border: solid #072b54;
+    height: 40vh;
+    width: 60vh;
+    margin: 1vh;
+}
+
+.box1content {
+    padding-left: 2vh;
+    font-size: 3vh;
+}
+
+.box1content h4 {
+    font-size: 4vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.box1content a {
+    color: #072b54;
+    text-decoration: none;
+}
+
+.box1content a:visited {
+    color: #072b54;
+}
+
+.box1content a:hover {
+    color: #e92e2b;
+}
+
+.box2 {
+    border: solid #072b54;
+    height: 40vh;
+    width: 60vh;
+    margin: 1vh;
+
+}
+
+.box3 {
+    border: solid #072b54;
+    height: 40vh;
+    width: 60vh;
+    margin: 1vh;
+    font-size: 3vh;
+}
+
+.timercontent {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vh;
+}
+
+img {
+    display: block;
+    border: solid #072b54;
+    height: 25vh;
+    width: 45vh;
+    margin: auto;
+}
+
+img:hover {
+    border: solid #e92e2b;;
+}
+
+.box4 {
+    border: solid #072b54;
+    height: 40vh;
+    width: 60vh;
+    margin: 1vh;
+}
+
+.box4 h4 {
+    font-size: 3vh;
+    margin-left: 2vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.box5 {
+    border: solid #072b54;
+    height: 40vh;
+    width: 60vh;
+    margin: 1vh;
+}
+
+.box6 {
+    border: solid #072b54;
+    height: 40vh;
+    width: 60vh;
+    margin: 1vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.box6 h4 {
+    font-size: 3vh;
+    margin-left: 2vh;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+
+.box6 a {
+    color: #072b54;
+    text-decoration: none;
+    font-size: 3vh;
+    margin-left: 4vh;
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+}
+
+.box6 a:visited {
+    color: #072b54;
+}
+
+.box6 a:hover {
+    color: #e92e2b;
+}
+
+/*pomodoro page*/
+
+.header a {
+    color: #072b54;
+    text-decoration: none;
+    margin-left: 2vh;
+    border: solid #f9be23;
+    background-color: #f9be23;
+    padding: 0.5vh;
+}
+
+.header a:visited {
+    color: #072b54;
+}
+
+.header a:hover {
+    color: #e92e2b;
+}
+
+.body2 {
+    height: 89vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+.upperbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid #072b54;
+    border-radius: 25vh;
+    height: 40vh;
+    width: 40vh;
+    font-size: 2vh;
+    padding: 1vh;
+    margin: 0;
+}
+
+#countdown1 {
+    font-size: 8vh;
+}
+
+#countdown2 {
+    font-size: 8vh;
+}
+
+.buttons {
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#startbtn1 {
+    height: 4vh;
+    width: 8vh;
+    font-size: 1vh;
+    background-color: #072b54;
+    border: none;
+    color: white;
+}
+
+#resetbtn1 {
+    height: 4vh;
+    width: 8vh;
+    font-size: 1vh;
+    background-color: #072b54;
+    border: none;
+    color: white;
+}
+
+#startbtn2 {
+    height: 4vh;
+    width: 8vh;
+    font-size: 1vh;
+    background-color: #072b54;
+    border: none;
+    color: white;
+}
+
+#resetbtn2 {
+    height: 4vh;
+    width: 8vh;
+    font-size: 1vh;
+    background-color: #072b54;
+    border: none;
+    color: white;
+}
+
+.lowerbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid #072b54;
+    border-radius: 25vh;
+    height: 40vh;
+    width: 40vh;
+    font-size: 2vh;
+    padding: 1vh;
+    margin: 0;
+}
